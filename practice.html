@@ -1,0 +1,33 @@
+<!DOCTYPE html><!--this tells browers to interpret our page's code as HTML5,the latest/greater version of the language.-->
+<!--this source is my note for the web programming lecture based on ppt.-->
+<!--html describes the content and structure if information but not the same as the presentation(appearence on screen)-->
+<!--syntax : <ELEMENT>CONTENT<ELEMENT>-->
+<!--example : <p>This is the paragraph.</p>-->
+<!--white space ignored-->
+<html>
+  <head lang="en"><!--lang="en"은 기계들이 이해 할 수 있게 하기위한 명령, 요즘엔 이렇게 하는 추세-->
+    &lt;head&gt; is the section of Information about the page and that information is called metadata.
+    <meta charset="utf-8">
+    <title>my first place</title>
+  </head>
+  <body>
+    <p>p태그안에는 block을 넣고, whitespce를 여러번 반복해도 하나의 공백으로 랜더링을한다.</p>
+    <p> 그리고 줄바꿈없이 한 줄의 끝까지 간 다음 행이 껴진다.(현재 p태그를 2개 사용)</p>
+    <h1>headings to seperate major areas of the page(block)</h1>
+    <hr /><!--a horizontal line to visually separate sections of a page(block)-->
+    <p>a horizontal line to visually separate sections of a page(block),</p>
+    <p>위의 줄이 hr 태그이고 이는 block사이에서 사용하는 것이 아니기 때문에 block를 인수로 갖는다.</p>
+    <p>hr태그는 뒤에 꼭 ' /'로 끝나야 하며 이를 self closing tag라 한다,(area, base, br, col, img, input, link, meta, param)</p>
+    <h2>heading은 1~6까지 있으며 6으로 갈수록 작아지고, 1부터 사용해야한다.</h2>
+    <h3> *글씨 크기 조정때문에 h3부터 사용하면 안됨</h3>
+    <p>attribute : additional information when we are using tag.</p>
+    <p>example : &lt;a href="page2.html"&gt;Next Page&lt;/a&gt;</p>
+    <p>Some tags don't contain content; can be opened and closed in one tag</p>
+    <p>example : &lt;hr /&gt;</p>
+    <p>example : &lt;img src="bunny.jpg" alt="pic from Easter" /&gt;</p>
+    <p>links(a), or "anchors", to other pages(inline)</p>
+    <p>a태그는 inline이기 때문에 block 태그 안에 사용한다.</p>
+    <p>img 태그는 inline형식이고, </p>
+
+  </body>
+</html>
